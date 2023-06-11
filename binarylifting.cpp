@@ -5,6 +5,7 @@ using namespace std;
 int up[200005][20];
 vector<int>grp[200005];
 
+//
 void binarylift(int src,int par){
     
     up[src][0]=par;
